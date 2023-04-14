@@ -126,9 +126,10 @@ body{
 }
 .productbc{
     background-color: white;
-    width: 60%;
-    margin: 0 auto;
     padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 .discount{
     color:  rgb(176, 10, 113);
@@ -137,7 +138,6 @@ body{
     border: 1px solid lightgrey;
     background-color: white;
     width: 13rem;
-    margin-left: 52px;
     border: 1px solid lightgrey;
     box-shadow: 0.5rem 1rem rgba(220, 123, 183, 0.1);
     position: relative;
